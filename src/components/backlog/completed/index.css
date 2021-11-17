@@ -1,0 +1,29 @@
+.completepagecontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.completepagecontainer .backlogcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 40vh;
+    flex-direction: column;
+    position: relative;
+}
+.completepagecontainer .backlogcontainer .heading{
+    background-color: rgb(200, 223, 71);
+   color: white;
+   width: 100%;
+   text-align: center;
+}
+.completepagecontainer .tododiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+    flex-direction: row;
+}

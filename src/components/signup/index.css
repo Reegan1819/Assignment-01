@@ -1,0 +1,44 @@
+
+ .box .container .page .formcontainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    width: 100%;
+  
+    font-size: x-large;
+  }
+
+  .box {
+    margin: 30px auto;
+    width: 400px;
+    height: 600px;
+    background-color: rgb(228, 127, 141);
+  }
+  
+  .box .container .page .formcontainer div label{
+    text-transform: capitalize;
+  }
+  .box .container .page .formcontainer button{
+  font-size: medium;
+  padding: 10px;
+  border: none;
+  background-color: rgba(69, 69, 245, 0.747);
+  border-radius: 3px;
+  color: white;
+  }
+  .box .container .page .formcontainer button:hover{
+    background-color: rgba(69, 69, 245, 0.900);
+  }
+  
+  .box .container .page .formcontainer .field .error{
+    font-size: medium;
+    color: red;
+  }
+  .box .container .page .formcontainer .field .input{
+    width: 300px;
+  }
+
+
+  

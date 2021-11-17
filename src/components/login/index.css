@@ -1,0 +1,47 @@
+.logincontainer .loginpage .formcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    width: 100%;
+  
+    font-size: x-large;
+  }
+
+  .logincontainer {
+    margin: 64px auto;
+    width: 352px;
+    height: 446px;
+    background-color: rgb(153, 216, 216);
+  }
+  
+  .logincontainer .loginpage .formcontainer div label{
+    text-transform: capitalize;
+  }
+  .logincontainer .loginpage .formcontainer button{
+  font-size: medium;
+  padding: 10px;
+  border: none;
+  background-color: rgba(69, 69, 245, 0.747);
+  border-radius: 3px;
+  
+  }
+
+ 
+  .logincontainer .loginpage .formcontainer button:hover{
+    background-color: rgba(31, 212, 40, 0.9);
+  }
+  
+  .logincontainer .loginpage .formcontainer .field .error{
+    font-size: medium;
+    color: red;
+  }
+  .logincontainer .loginpage .formcontainer .field .input {
+    width: 300px;
+    margin-top: 30px;
+  }
+  .logincontainer .loginpage .formcontainer .btn {
+    margin-top: 30px;
+  }
+

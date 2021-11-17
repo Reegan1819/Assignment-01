@@ -1,0 +1,29 @@
+.updatepagebox{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+.updatepagebox .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 30%;
+    background-color: aliceblue;
+    box-shadow: 5px 5px 20px black; 
+    position: relative;   
+}
+.updatepagebox .container .page form {
+    display: flex;
+    flex-direction: column;
+    
+}
+.updatepagebox .container .page .closebtn{
+    font-size: xx-large;
+    position: absolute;
+    top:3px;
+    right: 30px;
+    cursor: pointer;
+}
+

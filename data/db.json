@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "name": "reegan",
+      "username": "reegankavi",
+      "email": "reegan@gmail.com",
+      "password": "987654",
+      "id": "fbsfzVK"
+    },
+    {
+      "name": "Reegan",
+      "username": "ReeganKavi18",
+      "email": "kavi@gmail.com",
+      "password": "kavi123",
+      "id": "ake0lWn"
+    },
+    {
+      "name": "REEGAN GUNASEKARAN",
+      "username": "rocky",
+      "email": "reegangu@gmail.com",
+      "password": "reega123",
+      "id": "imrteq-"
+    }
+  ],
+  "tododata": [
+    {
+      "name": "event",
+      "date": "2021-10-17",
+      "time": "17:05",
+      "id": 2
+    }
+  ],
+  "complete": []
+}
